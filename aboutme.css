@@ -1,0 +1,126 @@
+
+html{
+    background-color: black;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-image:url(../webDev_project/gif\ background.gif);
+    width:100%;
+}
+
+
+#box3{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-family:'Montserrat';
+    background-color: black;
+  
+    justify-content: center;
+}
+
+/*the images in the areas of interest*/
+#box4 img{
+    height:10rem;
+    width:auto;
+    border-radius:15px;
+}
+
+
+/*the areas of interest box*/
+#box4 h2{
+    font-size:5rem;
+    text-decoration:underline wavy rgb(13,120,177);
+    padding:2rem;
+    text-align:center;
+}
+
+
+
+#box4 article{
+    line-height: 3rem;
+}
+
+
+
+#box4{
+    background-color: black;
+    color:white;
+    font-family:'Montserrat';
+}
+
+
+#box1{
+    text-align: center;
+    padding:100px;
+    background-color: black;
+    width:100%;
+    color:rgb(236, 225, 225);
+    font-family:'sigmar','Montserrat';
+    font-size:5rem;
+    text-decoration:underline rgb(13,120,177);
+    
+}
+
+table {
+    margin: 0 auto;
+}
+
+table, tr,td,th{
+    border: 1px dotted rgb(13,120,177);
+}
+
+td{
+    padding:0.5rem;
+}
+
+caption{
+    background-color: blue;
+    font-size: large;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+th{
+    padding:0.5rem;
+    background-color: rgb(75, 158, 191);
+    color: white;
+}
+
+
+table img {
+    width:15rem;
+    padding-right: 0;
+    height:15rem;
+    border-radius:10px;
+}
+
+table td{
+    text-align: center;
+}
+
+
+
+footer{
+
+    background-color: black;
+    
+    color:white;
+}
+
+a{
+    color:rgb(161, 210, 25);
+    text-decoration:none;
+}
+
+/*this wraps body elements (so they collapse vertically)
+when the viewport is less than 768px (mobile) 
+wide*/
+
+@media(max-width: 768px){
+    body,footer{
+        flex-wrap:wrap;
+    }
+}

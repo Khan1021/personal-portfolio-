@@ -1,0 +1,156 @@
+/* Overall page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between; /* this spaces out left and right sections */
+    align-items: center;
+    padding: 1em;
+    background-color: #0e74af;
+}
+
+.header-right a {
+    gap:1em;
+    margin-left: 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.logoutLink {
+    color: #ff3b3b;
+    text-decoration: none;
+}
+
+
+.logoutLink:hover{
+    text-decoration: underline;
+}
+
+
+.addPostLink {
+    text-decoration: none; /* Ensure no underline */
+    color: rgb(161, 210, 25); /* Set the desired color */
+}
+
+.addPostLink:hover {
+    color: rgb(200, 255, 50); /* Optional: Change color on hover */
+    text-decoration: underline;
+}
+
+.blog-header h1 {
+    margin: 0;
+}
+
+
+
+/* Main container for all posts */
+.blog-container {
+    max-width: 50em;
+    margin: 1.875em auto;
+    padding: 0 1.25em;
+}
+
+.blog-container h2{
+    color:white;
+}
+
+/* Each blog post article */
+.blog-post {
+    background-color: rgb(13, 120, 177);
+    padding: 1.25em;
+    margin-bottom: 1.25em;
+    color: white;
+    border-radius: 0.25em;
+    position: relative;
+}
+
+/* Post header area: title on left, date on right */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.post-title {
+    margin-top: 0;
+    margin-bottom: 0.3125em;
+    font-size: 1.4em;
+}
+.post-date {
+    font-size: 0.8em;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Author name if used */
+.post-author {
+    margin: 0 0 0.625em;
+    font-size: 0.9em;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* The main content of the post */
+.post-content {
+    margin-top: 0.625em;
+    margin-bottom: 0;
+}
+
+/* A horizontal line to separate posts or content within them */
+article hr {
+    margin-top: 0.9375em;
+    border: 0.0625em solid rgb(255, 255, 255);
+}
+
+
+
+
+.month-filter-form {
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+
+.month-filter-label {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.month-filter-select {
+    padding: 0.5em;
+    font-size: 1rem;
+    border-radius: 0.3em;
+    border: none;
+    background-color: #0e74af;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    appearance: none; /* optional: hides default arrow for custom UI */
+}
+
+
+
+.month-filter-select:focus {
+    box-shadow: 0 0 0 2px limegreen;
+}
+
+
+
+
+/*this wraps body elements (so they collapse vertically)
+when the viewport is less than 768px (mobile) 
+wide*/
+
+@media(max-width: 768px){
+    body,footer{
+        flex-wrap:wrap;
+    }
+}

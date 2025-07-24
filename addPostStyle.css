@@ -1,0 +1,120 @@
+/*to ensure the html and body take the full height of the view port*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-family: 'Montserrat';
+}
+
+html{
+    background-color: black;
+}
+
+.container{
+    flex-direction:column;
+    height:20rem;
+    font-size:1rem;
+    width:20rem;
+    margin-left:auto;
+    margin-right:auto;
+   align-items: center;
+
+}
+
+.container h2{
+    font-family: 'Montserrat';
+    font-size: 20pt;
+    color:rgb(255, 255, 255);
+}
+
+#title{
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    padding:1rem;
+    width:23rem;
+}
+
+label[for="title"] {
+    color:rgb(13,120,177); /* Example: Change text color */
+    font-weight: bold; /* Example: Make the font bold */
+}
+
+label[for="textBox"]{
+    color:rgb(13,120,177); /* Example: Change text color */
+    font-weight: bold; /* Example: Make the font bold */
+}
+
+
+#textBox{
+    font-size:1rem;
+    height:15rem;
+    width:25rem;
+    text-align: justify;
+    font-family: 'Montserrat';
+    flex-wrap:wrap;
+    border-color: aliceblue;
+}
+
+a{
+    color:rgb(13,120,177);
+}
+
+
+/*for styling the button*/
+ .button{
+   justify-content:center;
+    background-color:rgb(13,120,177);
+    color:white;
+    font-family: 'Montserrat';
+    font-size:1rem;
+    width:5rem;
+}
+
+/*to change the display of the buttons*/
+.buttonContainer{
+    display:flex;
+    gap:6.3rem;
+}
+
+
+/*to move the footer*/
+.container2{
+    display:flex;
+    align-self: flex-end;
+   
+    font-family: 'Montserrat';
+    color:rgb(255, 255, 255);
+  
+    background-color: black;
+    width:100vw;
+    height: auto;
+    margin-top:auto;
+    align-items: center;
+   
+}
+
+footer hr{
+    width:99vw;
+}
+
+
+/*this wraps body elements (so they collapse vertically)
+when the viewport is less than 768px (mobile) 
+wide*/
+
+@media(max-width: 768px){
+    body,footer{
+        flex-wrap:wrap;
+    }
+}

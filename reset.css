@@ -1,0 +1,14 @@
+html,footer,nav,body,div,h1,h2,h3,p,ul,li{
+    margin:0 auto;
+    padding:0;
+    border: 0;
+    font-size: 100%;
+
+
+
+
+    /* make it easier to calculate the width 
+    and height of an element in CSS*/
+    box-sizing:border-box;
+}
+
