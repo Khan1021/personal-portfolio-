@@ -9,9 +9,13 @@ My personal portfolio sends users to the landing page where they can navigate wh
 here users can find:
 
 - a breif introduction to myself
+  
 - contact information
+  
 - a downloadable version of my cv
+  
 - some of my hobbies/interests
+  
 - there are multiple buttons or hyperlinks that users can press to go to other pages
 
 Other pages available from the landing page are:
@@ -27,10 +31,11 @@ Other pages available from the landing page are:
 Users can press the hyperlinks or buttons to go to such a page.
 
 ## Getting Started
+
 ## Dependencies
 
--XAMPP, download information can be found online as download differs from environments.
--HTML5/ CSS / Javascript / PHP
+- XAMPP, download information can be found online as download differs from environments.
+- HTML5/ CSS / Javascript / PHP
 
 ## Deployment
 Currently, this site runs locally using XAMPP 
