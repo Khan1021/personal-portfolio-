@@ -49,8 +49,7 @@ Currently, this site runs locally using XAMPP
 
 ## Author
 
-Zaynab Khan
-Zaynabkhan982@gmail.com
+Zaynab Khan  Zaynabkhan982@gmail.com
 
 ## License
 
