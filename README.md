@@ -53,4 +53,11 @@ Zaynabkhan982@gmail.com
 
 ## License
 
-This project is under the license of the MIT license.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  This code is licensed under the [MIT License](LICENSE) in the repository.
+
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/Assets-CC--BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)  All design assests are licensed under the [CC BY-NC 4.0](LICENSE-ASSETS.md) license in the repository.
+
+
+
+
