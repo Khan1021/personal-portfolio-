@@ -45,7 +45,7 @@ session_start();
                         My name is Zaynab A Khan.<br>
                         I am currently in my first year at QMUL EECS studying computer science with industrial year
                         <br>
-                        Please click <a href = "aboutMe.html">here</a> to see more about me.
+                        Please click <a href = "aboutMe.php">here</a> to see more about me.
                     </p>
                     </article>
             </section>
